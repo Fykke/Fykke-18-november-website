@@ -90,3 +90,15 @@ a:hover {
         transform: translateX(0%);
     }
 }
+
+body::-webkit-scrollbar {
+    width: .7rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #a02c34;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgba(69, 71, 71, 0.9);
+}
